@@ -18,7 +18,7 @@ contenedorCategorias.addEventListener('click', (e) => {
        const fotos = dataFotos.fotos[categoriaActiva];
        const carousel = galeria.querySelector('.galeria__carousel-slides');
 
-       const {id, nombre, ruta, descripcion} = fotos[0];
+       const {id, nombre, ruta, descripcion} = fotos[0]; // ojo aqui
        cargarImagen(id, nombre, ruta, descripcion);
        carousel.innerHTML = '';
 
