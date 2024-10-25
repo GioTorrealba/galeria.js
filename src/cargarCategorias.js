@@ -3,7 +3,7 @@ const { categorias }= dataCategorias;
 const contenedorCategorias = document.getElementById('categorias');
 
 categorias.forEach((categoria) => {
-  console.log(categoria);
+ 
     const nuevaCategoria = document.createElement('a');
     const plantilla = `
       <img class="categoria__img" src="${categoria.imagenPortada}" alt="" />
